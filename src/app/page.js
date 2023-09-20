@@ -109,7 +109,7 @@ export default function Home() {
             <ProjectTables />
           </Col>
         </Row>
-        {/***Blog Cards***/}
+        {/* **Blog Cards**
         <Row>
           {BlogData.map((blg) => (
             <Col sm="6" lg="6" xl="3" key={blg.title}>
@@ -122,7 +122,7 @@ export default function Home() {
               />
             </Col>
           ))}
-        </Row>
+        </Row> */}
       </div>
     </div>
   );
